@@ -164,7 +164,7 @@ If you like this project, please consider giving it a ⭐ on GitHub!
 ## 📬 Contact
 
 Made with ❤️ by Cherry
-Connect with me: [LinkedIn](www.linkedin.com/in/ratul-pal)
+| Connect with me: [LinkedIn](www.linkedin.com/in/ratul-pal)
 
 ---
 
