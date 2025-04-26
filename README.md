@@ -119,7 +119,7 @@ blogs/
 - `/accounts/login/` ➔ Login Page
 - `/articles/` ➔ List of Blogs
 - `/articles/create/` ➔ Create New Blog
-- `/articles/<id>/` ➔ Blog Details
+- `/articles/<slug>/` ➔ Blog Details
 
 ---
 
