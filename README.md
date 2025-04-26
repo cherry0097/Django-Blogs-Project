@@ -163,8 +163,8 @@ If you like this project, please consider giving it a ⭐ on GitHub!
 
 ## 📬 Contact
 
-Made with ❤️ by [Your Name]  
-Connect with me: [LinkedIn](https://linkedin.com) | [Twitter](https://twitter.com)
+Made with ❤️ by Cherry
+Connect with me: [LinkedIn](www.linkedin.com/in/ratul-pal)
 
 ---
 
