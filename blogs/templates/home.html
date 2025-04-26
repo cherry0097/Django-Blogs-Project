@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href='{% static "article.css" %}' />
+  </head>
+  <body>
+    <nav>
+      <div>
+
+       <h1>My Blogs</h1>
+      </div>
+      <div>
+        
+        {% if user.is_authenticated %}
+        <form class = 'goback-link' action = {% url "articles:article-list" %} method = 'post'>
+            {% csrf_token %}
+            <button>{{user}}</button>
+        </form>
+        <form class = 'create-link' action = {% url "articles:article-create" %} method = 'post'>
+            {% csrf_token %}
+        <button type = 'submit'>Contribute</button>
+    </form>
+        <form class = 'logout-link' action = {% url "accounts:logout" %} method = 'post'>
+            {% csrf_token %}
+        <button type = 'submit'>Logout</button>
+    </form>
+    {% else %}
+    <form class = 'login-link' action = {% url "accounts:login" %} method = 'post'>
+        {% csrf_token %}
+    <button type = 'submit'>Login</button>
+</form>
+<form class = 'signup-link' action = {% url "accounts:signup" %} method = 'post'>
+    {% csrf_token %}
+<button type = 'submit'>Signup</button>
+</form>
+   {% endif %}
+      </div>
+    </nav>
+    <div class="wrapper">{% block content %} {% endblock %}</div>
+  </body>
+</html>
