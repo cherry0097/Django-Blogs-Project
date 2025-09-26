@@ -79,7 +79,7 @@ blogs/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/myblogs.git
+   git clone [https://github.com/your-username/myblogs.git](https://github.com/cherry0097/Django-Blogs-Project.git)
    cd myblogs
    ```
 
